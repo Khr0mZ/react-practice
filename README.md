@@ -55,7 +55,7 @@ The box should have a headline "Achievements"
 
 The list should be horizontal, each achievement has a fixed width, the text blow the image becomes multiple lines if it is too long to fit in one line at that width. 
 
-There is an achievements.png in the root of this project. You will have to cut this up into individual images and put them in public/assets to use them. See the JSON data in the App.tsx which contains the image path and name. 
+You can take the image from this page: https://www.cleanpng.com/png-computer-icons-medal-rewards-4238662/preview.html. You will have to cut this up into individual transparent PNG images and put them in public/assets to use them. See the JSON data in the App.tsx which contains the image path and name. 
 
 ### Skills box
 There should be a box which spans 50% of the width of the profile, which contains a list of skills of the person. Each skill belongs to a category. The values come from the JSON data in `skilltree`.
