@@ -1,0 +1,20 @@
+.ClassesInfoBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 0 2px 3px #ccc;
+    background-color: lightblue;
+}
+
+.ClassesInfoBoxTitle {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.ClassesInfoBoxList {
+    list-style-type: none;
+    padding: 5px 0 0 5px;
+    margin: 0;
+}

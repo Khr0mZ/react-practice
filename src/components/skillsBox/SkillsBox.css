@@ -1,0 +1,23 @@
+.SkillsBox {
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    box-shadow: 0 2px 3px #ccc;
+    flex: 1;
+    background-color: lightblue;
+}
+
+.SkillsBoxTitle {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.SkillsBoxList {
+    list-style-type: none;
+    padding: 5px 0 0 5px;
+    margin: 0 0 0 10px;
+}
+
+.LowMargin {
+    margin: 5px 5px 0px 5px;
+}

@@ -1,0 +1,46 @@
+.GrowthMapBox {
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 3px #ccc;
+    flex: 1;
+    background-color: lightblue;
+}
+
+.GrowthMapBoxTitle {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.GrowthMapBoxList {
+    list-style-type: none;
+    padding: 5px 0 0 5px;
+    margin: 0 0 0 5px;
+}
+
+.LowMargin {
+    margin: 5px 5px 0px 5px;
+}
+
+.ListAlign {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.NumPerRow {
+    width: 25%;
+}
+
+@media (max-width: 800px) {
+    .NumPerRow {
+        justify-content: space-evenly;
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .NumPerRow {
+        width: 90%;
+    }
+}

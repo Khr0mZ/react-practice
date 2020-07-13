@@ -1,0 +1,36 @@
+.AchievementsBox {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid black;
+    margin-top: 10px;
+    box-shadow: 0 2px 3px #ccc;
+    background-color: lightblue;
+}
+
+.AchievementsBoxTitle {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.AchievementsBoxList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.ListFixedWidth {
+    width: 128px;
+}
+
+.AchievementsName {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .AchievementsBoxList {
+        justify-content: space-evenly;
+    }
+}

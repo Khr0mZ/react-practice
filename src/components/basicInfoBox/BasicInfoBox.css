@@ -1,0 +1,29 @@
+.BasicInfoBox {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 2px 3px #ccc;
+    background-color: lightblue;
+}
+
+.MarginLeft5 {
+    margin-left: 5px;
+}
+
+.BasicInfoBoxText {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.CharacterAvatar {
+    height: 128px;
+    width: 128px;
+}
+@media (max-width: 600px) {
+    .CharacterAvatar {
+        height: 64px;
+        width: 64px;
+    }
+}
